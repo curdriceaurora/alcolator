@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B708F4BB1BE186DF00957361 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B708F4BA1BE186DF00957361 /* WhiskeyViewController.m */; };
 		B7990F4A1BD1778500456C13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7990F491BD1778500456C13 /* main.m */; };
 		B7990F4D1BD1778500456C13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7990F4C1BD1778500456C13 /* AppDelegate.m */; };
 		B7990F501BD1778500456C13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7990F4F1BD1778500456C13 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B708F4B91BE186DF00957361 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		B708F4BA1BE186DF00957361 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		B7990F451BD1778500456C13 /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7990F491BD1778500456C13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7990F4B1BD1778500456C13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				B7990F4C1BD1778500456C13 /* AppDelegate.m */,
 				B7990F4E1BD1778500456C13 /* ViewController.h */,
 				B7990F4F1BD1778500456C13 /* ViewController.m */,
+				B708F4B91BE186DF00957361 /* WhiskeyViewController.h */,
+				B708F4BA1BE186DF00957361 /* WhiskeyViewController.m */,
 				B7990F511BD1778500456C13 /* Main.storyboard */,
 				B7990F541BD1778500456C13 /* Assets.xcassets */,
 				B7990F561BD1778500456C13 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7990F501BD1778500456C13 /* ViewController.m in Sources */,
+				B708F4BB1BE186DF00957361 /* WhiskeyViewController.m in Sources */,
 				B7990F4D1BD1778500456C13 /* AppDelegate.m in Sources */,
 				B7990F4A1BD1778500456C13 /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				B7990F741BD1778500456C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7990F751BD1778500456C13 /* Build configuration list for PBXNativeTarget "AlcolatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				B7990F771BD1778500456C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7990F781BD1778500456C13 /* Build configuration list for PBXNativeTarget "AlcolatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				B7990F7A1BD1778500456C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
