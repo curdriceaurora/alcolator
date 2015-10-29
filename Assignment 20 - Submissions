@@ -1,0 +1,15 @@
+NSLocalizedString allows us to map multiple translations of a string based on the user's language settings/locale. It can be used on all strings but is preferred to be used on user facing strings. Only at runtime based on users preferred language the translation is in effect.  
+
+It has two parts, the key and comment.  
+Eg : NSLocalizedString(@"shot", @"singular shot")
+"shot" is the key, the string to be translated
+"singular shot" is the comment, provides context. Comment is not a mandatory field, but recommended when using with stringWithFormat for format strings with multiple substrings. 
+When no localization preferences are included, then the key string is used as the translation. 
+
+
+Subclassing
+
+1. Primary objective is to abstract out properties and methods for reusability and extension as necessary. 
+2. How to select what to absract out ? Conceptualize a hierarchial structure of classes that correspond to data/methods being designed such that data/methods that are common top down are included in the highest class and the ones that are particular to a sub class are included only at that level. 
+3. Are variable/method values also handed down to subclass ? Yes but can be overriden with re-assignment
+
